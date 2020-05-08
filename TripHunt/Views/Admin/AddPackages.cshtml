@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<title>Trip Hunt</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+    @Html.Partial("_HeaderNavBarAdmin");
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+
+        <!-- Contact -->
+        <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+            <h3 class="w3-center">Add Packages</h3>
+            <hr>
+            <form action="/action_page.php" target="_blank">
+                <div class="w3-section">
+                    <label>Name</label>
+                    <input class="w3-input w3-border" type="text" required name="Name">
+                </div>
+                <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input w3-border" type="text" required name="Email">
+                </div>
+                <div class="w3-section">
+                    <label>Message</label>
+                    <input class="w3-input w3-border" required name="Message">
+                </div>
+                <button type="submit" class="w3-button w3-block w3-dark-grey">Save</button>
+            </form><br>
+           
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+</body>
+</html>
+

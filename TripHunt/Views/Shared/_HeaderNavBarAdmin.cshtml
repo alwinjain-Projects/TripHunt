@@ -1,0 +1,24 @@
+﻿<link rel="stylesheet" href="~/CSS/HeaderStyle.css">
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+    <img class="w3-image" src="~/Images/MainPage.jpg" alt="Me" width="1500" height="600">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Trip Hunt</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">Trip Hunt</h5>
+        <h3 class="w3-hide-medium w3-hide-small">Explore the world!</h3>
+    </div>
+
+    <!-- Navbar (placed at the bottom of the header image) -->
+    <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+        <a class="w3-bar-item w3-button" asp-action="Home" asp-controller="Admin" asp-route-fid="alwin">Home</a>
+        <a class="w3-bar-item w3-button" asp-action="AddPackages" asp-controller="Admin" asp-route-fid="alwin">Add Packages</a>
+        <a href="#portfolio" class="w3-bar-item w3-button">View Package</a>
+        <a href="#portfolio" class="w3-bar-item w3-button">View Customers</a>
+        <a href="#portfolio" class="w3-bar-item w3-button">Your Orders</a>
+
+        <a class="w3-bar-item w3-button" asp-action="Testing" asp-controller="Admin" asp-route-fid="alwin">Testing</a>
+
+    </div>
+</header>
+
